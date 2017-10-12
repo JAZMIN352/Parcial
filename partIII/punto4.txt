@@ -1,0 +1,3 @@
+CREATE ROLE DBAuser;
+GRANT CONNECT, RESOURCE TO DBAuser;
+GRANT DBAuser TO amartinez;
